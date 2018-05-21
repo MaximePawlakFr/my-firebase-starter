@@ -1,3 +1,8 @@
-let b = { a: 10 };
-let c = { ...b, o: 10 };
-console.log("salut", 10);
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();

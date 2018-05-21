@@ -1,32 +1,20 @@
 {
-  "name": "my-firebase-starter",
-  "version": "1.0.0",
-  "description": "Sample project with firebase",
-  "main": "index.js",
-  "repository": "git@github.com:MaximePawlakFr/my-firebase-starter.git",
-  "author": "Maxime Pawlak <contact@maximepawlak.fr>",
-  "license": "MIT",
-  "dependencies": {
-    "preact": "^8.2.9"
+  "name": "my-firebase-start",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MaximePawlakFr/my-firebase-starter.git"
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.47",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "clean-webpack-plugin": "^0.1.19",
-    "copy-webpack-plugin": "^4.5.1",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4"
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "start": "webpack-dev-server --open"
-  },
-  "babel": {
-    "presets": ["env", "stage-2"]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
